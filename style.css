@@ -30,6 +30,12 @@ body {
   background: white;
   padding: 50px;
 }
+.rightSide {
+  position: relative;
+  background: #3d3e42;
+  padding: 50px;
+  min-height: 800px;
+}
 .profile {
   position: relative;
   display: flex;
@@ -124,4 +130,131 @@ hr.line {
   font-size: 0.9em;
   font-weight: 500;
   color: #4a4e51;
+}
+
+.experience {
+  background: #3d3e42;
+  width: 100%;
+  float: left;
+  position: relative;
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.main-title {
+  color: #66cc99;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.aboutMe p {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.company-wrapper {
+  padding-top: 20px;
+  width: 30%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 60px;
+}
+
+.job-wrapper {
+  padding-top: 20px;
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding-right: 5%;
+  margin-bottom: 30px;
+}
+
+.job-title {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.time {
+  color: #9099a0;
+  font-weight: 400;
+}
+.job-description {
+  color: #9099a0;
+  font-weight: 400;
+}
+.rightSide hr {
+  margin-bottom: 30px;
+}
+
+.interests {
+  padding-bottom: 20px;
+}
+
+.codeSnippet {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  overflow: auto;
+  width: auto;
+  border: solid #66cc99;
+  border-width: 0.1em 0.1em 0.1em 0.8em;
+  padding: 0.2em 0.6em;
+  font-size: 0.8em;
+}
+
+.interests ul {
+  margin-top: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.interests ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.interests ul li .icon {
+  color: #66cc99;
+  width: 30px;
+  font-size: 40px;
+}
+
+a:link {
+  color: #3d3e42;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3d3e42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #66cc99;
+  text-decoration: none;
+}
+
+a:active {
+  color: #3d3e42;
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .interests ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .job-title {
+    font-size: 14px;
+  }
 }
