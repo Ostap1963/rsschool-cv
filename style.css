@@ -222,6 +222,21 @@ hr.line {
   width: 30px;
   font-size: 40px;
 }
+.footerLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 30px;
+}
+footer img {
+  height: 100px;
+}
+footer p {
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
 
 a:link {
   color: #3d3e42;
